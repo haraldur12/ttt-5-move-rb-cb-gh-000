@@ -8,5 +8,5 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  return Integer(input) - 1
+  return board[Integer(input) - 1] = X
 end
