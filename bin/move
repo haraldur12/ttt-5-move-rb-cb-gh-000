@@ -8,4 +8,4 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-to_move = gets.stripe()
+input = gets.stripe()
