@@ -8,5 +8,8 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  return board[Integer(input) - 1] = "X"
+  return input.to_i()
 end
+
+def move(board,index,player)
+  
